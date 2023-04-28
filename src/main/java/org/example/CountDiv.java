@@ -16,4 +16,5 @@ public class CountDiv {
         }
         return x;
     }
+
 }
