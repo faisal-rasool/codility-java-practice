@@ -6,7 +6,6 @@ public class FrogRiverOne {
         for(int i=1;i<X+1;i++){
             boolean found = false;
             for(int t=0; t<A.length;t++){
-
                 if(A[t]==i){
                     if(t>resultTime) {
                         resultTime = t;

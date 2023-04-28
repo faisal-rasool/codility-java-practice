@@ -42,8 +42,11 @@ public class Main {
 //        PassingCars1 passingCars = new PassingCars1();
 //        int result = passingCars.solution(new int[]{0, 1, 0, 1, 1});
 
-        CountDiv countDiv = new CountDiv();
-        int result = countDiv.solution(11, 345, 17);
+//        CountDiv countDiv = new CountDiv();
+//        int result = countDiv.solution(11, 345, 17);
+
+        MinAvgTwoSlice minAvgTwoSlice = new MinAvgTwoSlice();
+        int result = minAvgTwoSlice.solution(new int[]{4, 2, 2, 5, 1, 5, 8});
 
         System.out.println("Solution! \n -----------");
         System.out.println(result);
