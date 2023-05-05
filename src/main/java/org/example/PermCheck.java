@@ -9,7 +9,7 @@ public class PermCheck {
         Arrays.sort(A);
 
         int start = 1;
-        for (int i=0; i<A.length;i++, start++){
+        for (int i=0; i<A.length; i++, start++){
             if(A[i] != start){
                 return 0;
             }
