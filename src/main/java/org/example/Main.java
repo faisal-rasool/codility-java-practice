@@ -95,10 +95,16 @@ public class Main {
 ////        boolean result = q3.solution(4, new int[]{1,2,4,4,3},new int[]{2,3,1,3,1});
 //        boolean result = q3.solution(4, new int[]{},new int[]{});
 
-        AABBAB aabbab = new AABBAB();
-        int result = aabbab.solution("BAABABB");
-//        int result = aabbab.solution("BBABAA");
-//        int result = aabbab.solution("AABBBB");
+//        AABBAB aabbab = new AABBAB();
+//        int result = aabbab.solution("BAABABB");
+
+        char[][] A = {
+                {'A', '.', '.', '.'},
+                {'.', '.', '.', '^'},
+                {'.', 'v', '.', '.'},
+                {'.', '.', '.', '>'}
+        };
+        boolean result = PathFinder2.solution(A);
 
         System.out.println("Solution! \n -----------");
         System.out.println(result);
